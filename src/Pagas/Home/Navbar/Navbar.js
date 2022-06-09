@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="container mx-auto my-5">
-        <div className="navbar bg-base-100">
+    <div className="bg-base-200">
+      <div className="container mx-auto ">
+        <div className="navbar py-10">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -17,8 +17,8 @@ const Navbar = () => {
                   stroke="currentColor"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="2"
                     d="M4 6h16M4 12h8m-8 6h16"
                   />
@@ -70,9 +70,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <Link to="" className="btn btn-primary text-white">
-              Download Resume
-            </Link>
+            <button className="btn btn-primary text-white">Download Resume</button>
           </div>
         </div>
       </div>
