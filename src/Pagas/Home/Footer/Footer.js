@@ -22,7 +22,7 @@ const Footer = () => {
               <a target="blank" href="https://www.youtube.com/channel/UCirlCrLzX9dQJP-2pFfnTCQ">
                 <FaYoutube className="fill-current text-red-700 text-2xl" />
               </a>
-              <a href="https://www.facebook.com/ahmleon551" target="blank">
+              <a target="blank" href="https://www.facebook.com/ahmleon551" target="blank">
                 <FaFacebookF className="fill-current  text-blue-700 text-2xl" />
               </a>
             </div>
