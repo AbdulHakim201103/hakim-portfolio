@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="bg-base-200">
+    <div className="bg-base-200 z-50 sticky top-0">
       <div className="container mx-auto ">
         <div className="navbar py-10">
-          <div className="navbar-start">
+          <div className="navbar-start ">
             <div className="dropdown">
               <label tabIndex="0" className="btn btn-ghost lg:hidden">
                 <svg
@@ -43,6 +43,9 @@ const Navbar = () => {
                 <li>
                   <Link to="/about">About</Link>
                 </li>
+                <li>
+                  <button className="btn btn-primary text-white">Download Resume</button>
+                </li>
               </ul>
             </div>
             <Link to="/" className="btn btn-ghost normal-case text-4xl ">
@@ -50,7 +53,7 @@ const Navbar = () => {
               <span className="text-green-700">Hakim</span>
             </Link>
           </div>
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
               <li>
                 <Link to="/home">Home</Link>
@@ -67,10 +70,10 @@ const Navbar = () => {
               <li>
                 <Link to="/about">About</Link>
               </li>
+              <li>
+                <button className="btn btn-primary text-white">Download Resume</button>
+              </li>
             </ul>
-          </div>
-          <div className="navbar-end">
-            <button className="btn btn-primary text-white">Download Resume</button>
           </div>
         </div>
       </div>

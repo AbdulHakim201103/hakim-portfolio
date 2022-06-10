@@ -3,24 +3,24 @@
         "name" : "ToolsBD",
         "status" : "Full-Stack",
         "img" : "https://i.ibb.co/HrKXqQr/project1.jpg",
-        "description" : " It’s a MERN stack Manufacturing website. There has a user & admin difference UI.It has Authentication, Registration, Dashboard, Profile, Order, Review, Payment System, and Sever.Uses Tools: Firebase, React Router, ReactJS, NodeJS,MongoDB,Heroku,JTW,Stripe.",
+        "description" : " It's a MERN stack Manufacturing website. There has a user & admin difference UI.It has Authentication, Registration, Dashboard, Profile, Order, Review, Payment System, and Sever.Uses Tools: Firebase, React Router, ReactJS, NodeJS,MongoDB,Heroku,JTW,Stripe.",
         "date" : "20 May 2022 - 24 May 2022",
-        "short" : "It’s a MERN stack Manufacturing website. There has a user & admin difference UI."
+        "short" : "It's a MERN stack Manufacturing website. There has a user & admin difference UI."
     },
     {
         "name" : "Comfort Shoes",
         "status" : "Full-Stack",
         "img" : "https://i.ibb.co/6PVVnWX/project2.jpg",
-        "description" : " It’s a MERN stack WareHouse Management website with a dynamic service section.It has Authentication, RequireAuth, My Product, Stock Update, and Sever.Uses Tools: Firebase, React Router, ReactJS, NodeJS,MongoDB,Heroku,React Form",
+        "description" : " It's a MERN stack WareHouse Management website with a dynamic service section.It has Authentication, RequireAuth, My Product, Stock Update, and Sever.Uses Tools: Firebase, React Router, ReactJS, NodeJS,MongoDB,Heroku,React Form",
         "date" : "04 May 2022 - 08 May 2022 ",
-        "short" : "It’s a MERN stack WareHouse Management website with a dynamic service section"
+        "short" : "It's a MERN stack WareHouse Management website with a dynamic service section"
     },
     {
         "name" : "Hero Gym and Fitness",
         "status" : " Front-End",
         "img" : "https://i.ibb.co/V93tBP3/project3.jpg",
-        "description" : " It’s a Front-End website. It’s an Independent Service website.It has Authentication, RequireAuth, Error Handle, and Checkout.Uses Tools: Firebase, React Router, ReactJS,Bootstrap,React Toastify. ",
+        "description" : " It's a Front-End website. It's an Independent Service website.It has Authentication, RequireAuth, Error Handle, and Checkout.Uses Tools: Firebase, React Router, ReactJS,Bootstrap,React Toastify. ",
         "date" : "16 April 2022 - 18 April 2022 ",
-        "short" : " It’s a Front-End website. It’s an Independent Service website."
+        "short" : " It's a Front-End website. It's an Independent Service website."
     }
 ]

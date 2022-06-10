@@ -1,5 +1,4 @@
 import React from "react";
-import "./Banner.css"
 import profile from "../../../Assets/image/profile.png";
 
 const Banner = () => {
