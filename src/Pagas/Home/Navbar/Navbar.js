@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFileDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -44,7 +45,7 @@ const Navbar = () => {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <a target="blank" href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary text-white">Download Resume</a>
+                  <a target="blank" href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary text-white">Download Resume </a>
                 </li>
               </ul>
             </div>
@@ -71,7 +72,7 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
               <li>
-              <a href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary text-white">Download Resume</a>
+              <a target="blank" href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary  text-white">Download Resume<FaFileDownload className="text-xl" /> </a>
               </li>
             </ul>
           </div>
