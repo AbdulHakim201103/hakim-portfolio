@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../../../Assets/image/profile.png";
 
 const Banner = () => {
+  
   return (
     <div className="bg-base-200">
       <div className="container mx-auto">
