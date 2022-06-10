@@ -8,10 +8,10 @@ const MySkills = () => {
         <h3 className="my-20 text-5xl text-center text-primary">My Skills</h3>
         <div class="hero my-20">
           <div class="hero-content flex-col lg:flex-row">
-            <div className="lg:w-6/12 w-8/12 mx-10">
+            <div className="lg:w-6/12 w-full mx-10">
               <img src={skills} class="" alt="" />
             </div>
-            <div className="lg:w-6/12 w-8/12 mx-10">
+            <div className="lg:w-6/12 w-full mx-10">
               <div className="card bg-base-100 shadow-xl flex justify-center mx-auto">
                 <div className="card-body mx-auto">
                   <h1>HTML</h1>
