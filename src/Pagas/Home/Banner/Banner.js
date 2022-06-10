@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import profile from "../../../Assets/image/profile.png";
 
 const Banner = () => {
@@ -21,7 +22,7 @@ const Banner = () => {
                 excellent website that improves the lives of those around me. I gain skills and
                 strong confidence in JavaScript, React js, Node js, Express js, MongoDB, and more.
               </p>
-              <button className="btn btn-primary text-white">Hire Me</button>
+              <a href="/home#message" className="btn btn-primary text-white">Hire Me</a>
             </div>
           </div>
         </div>

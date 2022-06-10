@@ -44,7 +44,7 @@ const Navbar = () => {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <button className="btn btn-primary text-white">Download Resume</button>
+                  <a target="blank" href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary text-white">Download Resume</a>
                 </li>
               </ul>
             </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <button className="btn btn-primary text-white">Download Resume</button>
+              <a href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary text-white">Download Resume</a>
               </li>
             </ul>
           </div>

@@ -3,10 +3,10 @@ import skills from "../../../Assets/image/skills.svg";
 
 const MySkills = () => {
   return (
-    <div>
+    <div className="bg-base-200">
       <div className="container mx-auto">
-        <h3 className="my-20 text-5xl text-center text-primary">My Skills</h3>
-        <div class="hero my-20">
+        <h3 className="py-20 text-5xl text-center text-primary">My Skills</h3>
+        <div class="hero py-20">
           <div class="hero-content flex-col lg:flex-row">
             <div className="lg:w-6/12 w-full mx-10">
               <img src={skills} class="" alt="" />

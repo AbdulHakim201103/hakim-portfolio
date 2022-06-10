@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import Navbar from "./Pagas/Home/Navbar/Navbar";
 import Home from "./Pagas/Home/Home/Home";
+import Message from "./Pagas/Home/Message/Message";
 import About from "./Pagas/About/About";
 import Portfolio from "./Pagas/Portfolio/Portfolio";
 import Service from "./Pagas/Service/Service/Service";

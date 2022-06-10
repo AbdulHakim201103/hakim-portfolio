@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProjectCard = ({ project }) => {
   const { name, short, date, img } = project;
   return (
-    <div>
+    <div className="bg-base-200">
       <div className="card lg:max-w-lg bg-base-100 shadow-xl">
         <div className="card-body">
           <div>
