@@ -7,22 +7,18 @@ import emailAddress from "../../../Assets/image/emailAddress.png";
 const ContactMe = () => {
   return (
     <div>
-      <div className="container mx-auto py-5">
-        <div>
-          <h1 className="my-20 text-5xl text-center text-primary">Message</h1>
-          <div class="hero my-20">
-            <div class="hero-content flex-col  lg:flex-row-reverse">
-              <div className="lg:w-6/12 w-8/12 mx-10">
-                <img src={contact_us} class="" alt="" />
-              </div>
-              <div className="lg:w-6/12 w-8/12 mx-10">
-                <div className="card bg-base-100 shadow-xl flex justify-center mx-auto">
-                  <div className="card-body">
-                  <h1 className="text-2xl text-center text-primary">Get in Touch</h1>
-              <h1 className="my-3">
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+            <img src={contact_us} alt="" />
+          </div>
+          <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div class="card-body">
+              <h1 class="text-5xl font-bold">Get in Touch</h1>
+              <p class="py-6">
                 I think you should interested on my profile and experience. Reach me given
                 information below.
-              </h1>
+              </p>
               <div className="flex">
                 <div>
                   <img
@@ -66,10 +62,6 @@ const ContactMe = () => {
                   <p className="text-xl">+8801627599527</p>
                 </div>
               </div>
-                  </div>
-                </div>
-              </div>
-              
             </div>
           </div>
         </div>
