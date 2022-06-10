@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="hero py-14">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="w-6/12">
-              <img src={profile} className="  " alt="" />
+              <img  src={profile} className="  " alt="" />
             </div>
             <div className="w-6/12">
               <h1 className=" text-4xl my-5 font-bold">Hi I'm </h1>
