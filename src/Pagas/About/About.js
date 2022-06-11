@@ -20,7 +20,7 @@ const About = () => {
                 highly passionate about MERN Stack (MongoDB, Express JS, React JS, Node JS). I love
                 to do Coding. I count myself as a hardworking person.
               </p>
-              <p className="font-bold:">My Skills</p>
+              <h2 className="text-xl font-bold mx-auto py-3 text-secondary">My Skills:</h2>
               <p>
                 <span className="btn my-4 mx-2">HTML</span>
                 <span className="btn my-4 mx-2">CSS</span>
