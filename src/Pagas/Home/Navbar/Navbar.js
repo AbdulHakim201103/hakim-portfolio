@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="bg-base-200 z-50 sticky top-0">
+    <div className=" bg-white z-50 sticky top-0">
       <div className="container mx-auto ">
         <div className="navbar py-10">
           <div className="navbar-start ">
@@ -20,7 +20,7 @@ const Navbar = () => {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    stroke-width="2"
+                    strokeWidth="2"
                     d="M4 6h16M4 12h8m-8 6h16"
                   />
                 </svg>
@@ -32,20 +32,21 @@ const Navbar = () => {
                 <li>
                   <Link to="/home">Home</Link>
                 </li>
-                <li>
-                  <Link to="/service">Service</Link>
-                </li>
-                <li>
-                  <Link to="/portfolio">Portfolio</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
-                </li>
+
                 <li>
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <a target="blank" href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary text-white">Download Resume </a>
+                  <Link to="/blogs">Blogs</Link>
+                </li>
+                <li>
+                  <a
+                    target="blank"
+                    href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing"
+                    className="btn btn-primary text-white"
+                  >
+                    Download Resume
+                  </a>
                 </li>
               </ul>
             </div>
@@ -60,19 +61,20 @@ const Navbar = () => {
                 <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/service">Service</Link>
-              </li>
-              <li>
-                <Link to="/portfolio">Portfolio</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-              <li>
                 <Link to="/about">About</Link>
               </li>
               <li>
-              <a target="blank" href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing" className="btn btn-primary  text-white">Download Resume<FaFileDownload className="text-xl" /> </a>
+                <Link to="/blogs">Blogs</Link>
+              </li>
+              <li>
+                <a
+                  target="blank"
+                  href="https://drive.google.com/file/d/1x7UAPvaI1qI8BP8x14B0mvN0DeCboLpq/view?usp=sharing"
+                  className="btn btn-primary  text-white"
+                >
+                  Download Resume
+                  <FaFileDownload className="text-xl" />
+                </a>
               </li>
             </ul>
           </div>
